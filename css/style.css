@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+html,body{
+    height: 100%;
+}
+
+h1, p{
+    margin:0
+}
+.wrapper{
+    height: 100%;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.page6{
+    width: 393px;
+    height: 852px;
+    background-color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center
+}
+
+.page6 .logo{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    position: fixed; /* 固定位置 */
+    top: 10px;       /* 距離頂部 10px (可調整) */
+    left: 37%;      /* 距離左側 10px (可調整) */
+    z-index: 1000;   /* 確保在其他內容之上 */
+    width: 100px;    /* Logo 寬度 (可調整) */
+
+}
+
+.page6 .logo img{
+    height: 100%;
+    display: block;
+}
+
+.page6 .box{
+    width: 393px;
+    height: 650px;
+    vertical-align: center;
+    justify-content: center;
+    background-color:#fff;
+}
+
+.page6 .box .title{
+    font-size: 32px;
+    text-align: center;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.page6 .box .item{
+    font-size: 20px;
+    float: left;
+    margin-left: 23px;
+}
+.page6 .box .situ{
+    font-size: 20px;
+    float: right;
+    margin-right: 45px;
+}
+
+.page6 .box hr{
+    height: 1px;
+    border: none;
+    background-color: black;
+    width: 340px;
+    text-align: center;
+}
+
+.page6 .box .item2{
+    font-size: 14px;
+    float: left;
+    margin-left: 23px;
+}
+
+.page6 .box .btn1{
+    display: inline-block;
+    padding: 8px 15px;
+    /* line-height:24px; */
+    /* text-align:center; */
+    text-decoration:none;
+    font-size: 14px;
+    color: #ACCCE0;
+    background: #fff;
+    border: 1px #ACCCE0 solid;
+    border-radius: 12px;
+    float: right;
+    margin-right: 23px;
+}
+
+.page6 .box .item3{
+    font-size: 14px;
+    float: left;
+    margin-left: 23px;
+}
+
+.page6 .box .btn2{
+    display: inline-block;
+    padding: 8px 22px;
+    /* line-height:24px; */
+    /* text-align:center; */
+    text-decoration:none;
+    font-size: 14px;
+    color: #fff;
+    background: #ACCCE0;
+    border-radius: 12px;
+    float: right;
+    margin-right: 23px;
+}
+
+.page6 .box .item4{
+    font-size: 14px;
+    float: left;
+    margin-left: 23px;
+}
